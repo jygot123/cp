@@ -143,11 +143,11 @@
                                         <li><a href="#" id="blog" class="subNavBtn">Blog</a></li>
                                         <li><a href="#" id="contact" class="subNavBtn">Contact</a></li>
                                     </ul>
-                                </div>                                 
-                            </div> 
-                        </div> 
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>        
+                </div>
             </div>
 			<div id="subMenuJs"></div>
             <div class="serv-bg service" id="2">
@@ -236,5 +236,225 @@
         });
     });
     </script>
-  </body>
+
+    <div class="bg about" id="4">
+                    <div class="container">
+                        <div class="row marg75">
+                            <div class="col-lg-12">
+                              <div class="promo">Vision</div>
+                              <div class="promo-p">To be a World Wide IT Solution and digital partner. Transforms companies from a conventional business process to become digitalized. </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-6 col-md-6 marg50">
+                              <section class="slider">
+                                  <div class="flexslider">
+                                      <ul class="slides">
+                                          <li><img src="assets/images/about-2.jpg" /></li>
+                                          <li><img src="assets/images/about-1.jpg" /></li>
+                                          <li><img src="assets/images/about-3.jpg" /></li>
+                                      </ul>
+                                  </div>
+                              </section>
+                          </div>
+                          <div class="col-lg-6 col-md-6 marg50">
+                              <div class="about-block">
+                                <div class="about-name">About us</div>
+                                  <div class="about-text">
+                                      Originally established in the early 2011 as an IT Solution known as iSD. Our operations have expanded over the years, in cooperation with highly experienced and professional in the software industry. iSDwere able to develop all software requirements from front end to back office systems. In 2015 iSDmerged with PT. Ezio Mitra Sukses Indonesia, as a consequences of such merge we have enhanced our mobile application and micro controller specialist capability and therefore provide the best solution to integrate any customers need.Ultimately in Mid 2017 a joint venture between PT. Hade Hate Teknologi Indonesia and PT. Ezio Mitra Sukses were established under the name PT. Caraka Teknologi Indonesia. This merger focused merely on ehancingboth companies expertize and resulted in benefitting customer needs for an end to end IT and Digital solutions
+                                  </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                            <ul class="about-ul">
+                                                <li><i class="icon-check"></i> We are trendy</li>
+                                                <li><i class="icon-check"></i> We provide best web solutions</li>
+                                                <li><i class="icon-check"></i> 24/7 Support </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                            <ul class="about-ul">
+                                                <li><i class="icon-check"></i> Our clients love us</li>
+                                                <li><i class="icon-check"></i> We accelerate your business</li>
+                                                <li><i class="icon-check"></i> We are passionate</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row marg75">
+                        <div class="col-lg-12">
+                            <div class="promo">Our team</div>
+                            <div class="promo-p">Our creative minds</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team1.jpg" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                  <div class="team-name">Agus Sulaeman</div>
+                                  <div class="team-desc">Project Manager</div>
+                                  <div class="team-text">Planning</div>
+                                  <ul class="team-soc">
+                                      <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                      <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                      <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                      <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team1.jpg" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                  <div class="team-name">Eggi Moch Iqbal</div>
+                                  <div class="team-desc">Project Manager</div>
+                                  <div class="team-text">Planning</div>
+                                  <ul class="team-soc">
+                                      <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                      <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                      <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                      <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team1.jpg" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Mark Sebastian</div>
+                                    <div class="team-desc">Project Manager</div>
+                                    <div class="team-text">Planning</div>
+                                    <ul class="team-soc">
+                                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team2.jpg" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Jessica Doe</div>
+                                    <div class="team-desc">system Analyst</div>
+                                    <div class="team-text">Analyst and Design</div>
+                                    <ul class="team-soc">
+                                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team3.jpg" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Michael Jefferson</div>
+                                    <div class="team-desc">Android Developer</div>
+                                    <div class="team-text">This template was designed specially  for you. It’s easy to customize anything. Fully responsive layout. We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind.</div>
+                                    <ul class="team-soc">
+                                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team4.jpg" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Rowena Baga</div>
+                                    <div class="team-desc">iOS Developer</div>
+                                    <div class="team-text">This template was designed specially  for you. It’s easy to customize anything. Fully responsive layout. We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind.</div>
+                                    <ul class="team-soc">
+                                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team4.jpg" alt=""></div></div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                <div class="team-name">Baga Rowena </div>
+                                <div class="team-desc">Back end & Web Developer</div>
+                                <div class="team-text">This template was designed specially  for you. It’s easy to customize anything. Fully responsive layout. We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind.</div>
+                                <ul class="team-soc">
+                                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team4.jpg" alt=""></div></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                            <div class="team-name">Jakam </div>
+                            <div class="team-desc">QA Tester</div>
+                            <div class="team-text">This template was designed specially  for you. It’s easy to customize anything. Fully responsive layout. We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind.</div>
+                            <ul class="team-soc">
+                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  <div class="parallax-2 contact" id="6">
+                <div class="parallax-over-2">
+                    <div class="container">
+                        <div class="row marg75">
+                            <div class="col-lg-12">
+                                <div class="promo-white">Contact</div>
+                                <div class="promo-p bg-white ">Get in touch with us</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 marg50">
+                                <div class="contact-info">
+                                    <div class="contact-icon"><i class="icon-call-in"></i></div>
+                                    <div class="contact-bg">
+                                        <div class="contact-name">Call us</div>
+                                        <div class="contact-tel">+(62) 22 - 330765 <br><span>Work hours is 9am to 5pm</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 marg50">
+                                <div class="contact-info">
+                                    <div class="contact-icon cc3"><i class="icon-pointer"></i></div>
+                                    <div class="contact-bg">
+                                        <div class="contact-name">Address</div>
+                                        <div class="contact-tel">Bandung, West Java, 40161<br>Jl. Sirnamanah No.34, Pasteur, Sukajadi, Kota Bandung</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
 </html>
