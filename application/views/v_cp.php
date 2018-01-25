@@ -199,45 +199,104 @@
                     </div>
                 </div>
             </div>
-			  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider4').bxSlider({
-        slideWidth: 200,
-        minSlides: 1,
-        maxSlides: 5,
-        moveSlides: 1,
-        slideMargin: 35,
-        auto: true,
-        pause: 4000,
-        speed: 1000,
-        controls:false,
-        pager:false
-      });
-    });
-    </script>
-    <script type="text/javascript" src="<?=base_url('assets/js/bootstrap.min.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/jquery.cubeportfolio.min.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/portfolio.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/retina.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/contacts.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/jquery.bxslider.min.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/jquery.dlmenu.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/jquery.flexslider-min.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/jquery.parallax-1.1.3.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/main.js');?>"></script>
-    <script type="text/javascript" src="<?=base_url('assets/js/jquery.smint.js');?>"></script>
-    <script type="text/javascript">
-    $(document).ready( function() {
-        var sliderApi = jQuery('.tp-banner').revolution();
-        sliderApi.bind("revolution.slide.onloaded",function (e) {
-            $('.subMenu').smint({
-                'scrollSpeed' : 1000
-            });
-        });
-    });
-    </script>
-
-    <div class="bg about" id="4">
+			+            </div>
+            <div class="bg portfolio" id="3">
+                <div class="container">
+                    <div class="row marg75">
+                        <div class="col-lg-12">
+                            <div class="promo">Our works</div>
+                            <div class="promo-p">We provide the best quality services</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="marg50" style="overflow:hidden;">
+                    <div id="grid-container" class="cbp-l-grid-projects">
+                        <ul>
+                            <li class="cbp-item graphic">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="<?=base_url('assets/images/portfolio1.jpg');?>" alt="" width="100%">
+                                    </div>
+                                    <div class="cbp-caption-activeWrap">
+                                        <div class="cbp-l-caption-alignCenter">
+                                            <div class="cbp-l-caption-body">
+                                                <a href="assets/images/portfolio1.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cbp-l-grid-projects-title">Kota Cerdas</div>
+                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">Sukabumi Government (2017)<br>IOS, Android, and PHP</span></div>
+                            </li>
+                            <li class="cbp-item">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="<?=base_url('assets/images/portfolio2.jpg');?>" alt="" width="100%">
+                                    </div>
+                                    <div class="cbp-caption-activeWrap">
+                                        <div class="cbp-l-caption-alignCenter">
+                                            <div class="cbp-l-caption-body">
+                                                <a href="assets/images/portfolio2.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cbp-l-grid-projects-title">BANDA</div>
+                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">PMT, Centratama Group (2016) <br>Android and PHP</span></div>
+                            </li>
+                            <li class="cbp-item">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="<?=base_url('assets/images/portfolio3.jpg');?>" alt="" width="100%">
+                                    </div>
+                                    <div class="cbp-caption-activeWrap">
+                                        <div class="cbp-l-caption-alignCenter">
+                                            <div class="cbp-l-caption-body">
+                                                <a href="assets/images/portfolio3.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cbp-l-grid-projects-title">PERSPEBSI</div>
+                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">Neurosurgery Doctor Association (2017) <br>IOS,Android, and PHP</span></div>
+                            </li>
+                            <li class="cbp-item">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="<?=base_url('assets/images/portfolio4.jpg');?>" alt="" width="100%">
+                                    </div>
+                                    <div class="cbp-caption-activeWrap">
+                                        <div class="cbp-l-caption-alignCenter">
+                                            <div class="cbp-l-caption-body">
+                                                <a href="assets/images/portfolio4.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cbp-l-grid-projects-title">FAQ Mobile</div>
+                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">Bank BRI (2017)<br>IOS, Android, PHP, and Phyton</span></div>
+                            </li>
+                            <li class="cbp-item">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="<?=base_url('assets/images/portfolio5.jpg');?>" alt="" width="100%">
+                                    </div>
+                                    <div class="cbp-caption-activeWrap">
+                                        <div class="cbp-l-caption-alignCenter">
+                                            <div class="cbp-l-caption-body">
+                                                <a href="assets/images/portfolio5.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cbp-l-grid-projects-title">I-Candidate</div>
+                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">(2017)<br>IOS, Android, and PHP</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cbp-l-loadMore-button"><a href="<?=base_url('portfolio/load.html');?>" class="cbp-l-loadMore-button-link">More Works</a></div>
+				<div class="bg about" id="4">
                     <div class="container">
                         <div class="row marg75">
                             <div class="col-lg-12">
@@ -424,7 +483,7 @@
                     </div>
                 </div>
             </div>
-  <div class="parallax-2 contact" id="6">
+			<div class="parallax-2 contact" id="6">
                 <div class="parallax-over-2">
                     <div class="container">
                         <div class="row marg75">
@@ -457,4 +516,42 @@
                 </div>
             </div>
 </body>
+	<script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider4').bxSlider({
+        slideWidth: 200,
+        minSlides: 1,
+        maxSlides: 5,
+        moveSlides: 1,
+        slideMargin: 35,
+        auto: true,
+        pause: 4000,
+        speed: 1000,
+        controls:false,
+        pager:false
+      });
+    });
+    </script>
+    <script type="text/javascript" src="<?=base_url('assets/js/bootstrap.min.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/jquery.cubeportfolio.min.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/portfolio.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/retina.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/contacts.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/jquery.bxslider.min.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/jquery.dlmenu.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/jquery.flexslider-min.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/jquery.parallax-1.1.3.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/main.js');?>"></script>
+    <script type="text/javascript" src="<?=base_url('assets/js/jquery.smint.js');?>"></script>
+    <script type="text/javascript">
+    $(document).ready( function() {
+        var sliderApi = jQuery('.tp-banner').revolution();
+        sliderApi.bind("revolution.slide.onloaded",function (e) {
+            $('.subMenu').smint({
+                'scrollSpeed' : 1000
+            });
+        });
+    });
+    </script>
 </html>
+
