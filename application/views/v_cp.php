@@ -7,10 +7,10 @@
     <meta content="xenia - responsive and retina ready template" name="description">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
     <link href="<?=base_url('assets/images/favicon.ico');?>" rel="shortcut icon"/>
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144x144-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/apple-touch-icon-114x114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72x72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=base_url('assets/images/apple-touch-icon-144x144-precomposed.png');?>" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=base_url('assets/images/apple-touch-icon-114x114-precomposed.png');?>" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=base_url('assets/images/apple-touch-icon-72x72-precomposed.png');?>" />
+    <link rel="apple-touch-icon-precomposed" href="<?=base_url('assets/images/apple-touch-icon-precomposed.png');?>" />
     <!-- JS FILES -->
     <script type="text/javascript" src="<?=base_url('assets/js/jquery-1.20.2.min.js');?>"></script>
     <script type="text/javascript" src="<?=base_url('assets/js/jquery-migrate-1.2.1.min.js');?>"></script>
