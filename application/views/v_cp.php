@@ -277,6 +277,7 @@
                                 <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">Bank BRI (2017)<br>IOS, Android, PHP, and Phyton</span></div>
                             </li>
                             <li class="cbp-item">
+                            	<br>
                                 <div class="cbp-caption">
                                     <div class="cbp-caption-defaultWrap">
                                         <img src="<?=base_url('assets/images/portfolio5.jpg');?>" alt="" width="100%">
