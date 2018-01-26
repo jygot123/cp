@@ -71,7 +71,7 @@
                         </div>
                    </li>
                     <li data-transition="random" data-slotamount="5" data-masterspeed="700" >
-                        <img src="assets/images/bg2.jpg"   alt=""  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img "<?=base_url('assets/imagesbg2.jpg');?>"   alt=""  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                         <div class="tp-caption bglargewhite sft"
                             data-x="center"
                             data-y="100"
@@ -199,104 +199,208 @@
                     </div>
                 </div>
             </div>
-			+            </div>
-            <div class="bg portfolio" id="3">
+        </div>
+            <div class="bg about">
                 <div class="container">
                     <div class="row marg75">
                         <div class="col-lg-12">
-                            <div class="promo">Our works</div>
-                            <div class="promo-p">We provide the best quality services</div>
+                            <div class="promo">Our Product</div>
+                            <div class="promo-p">You will get the best quality services</div>
                         </div>
                     </div>
-                </div>
-                <div class="marg50" style="overflow:hidden;">
-                    <div id="grid-container" class="cbp-l-grid-projects">
-                        <ul>
-                            <li class="cbp-item graphic">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="<?=base_url('assets/images/portfolio1.jpg');?>" alt="" width="100%">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="assets/images/portfolio1.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team1.jpg');?>" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                  <div class="team-name">Kota Cerdas</div>
+                                  <div class="team-desc">Sukabumi Government (2017)</div>
+								  <div class="team-desc">IOS, Android, PHP</div>
+                                  <div class="team-text">Kota Cerdas have several modules (News, Citizen Report, UMKM Commerce, Panic Button, City Info and location, Government Structure Information). Content Management System	and	Dashboard for command center and back end.</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team1.jpg');?>" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                  <div class="team-name">BANDA</div>
+                                  <div class="team-desc">PMT, Centratama Group (2016)</div>
+								  <div class="team-desc">Android and PHP</div>
+                                  <div class="team-text">Preventive	and	Corrective	asset	maintenance	system,	combining	mobile	apps	technology	for	site	survey. Tracking	and	web	for	controller,	approval,	report	and	dashboard.</div>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+					  <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team1.jpg');?>" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                  <div class="team-name">PERSPEBSI</div>
+                                  <div class="team-desc">Neurosurgery	Doctor	Association	 (2017)</div>
+								  <div class="team-desc">IOS, Android, and PHP</div>
+                                  <div class="team-text">Neurosurgery	Doctor	Association	for	certification	and	point	calculation	tracking.</div>
+                              </div>
                                 </div>
-                                <div class="cbp-l-grid-projects-title">Kota Cerdas</div>
-                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">Sukabumi Government (2017)<br>IOS, Android, and PHP</span></div>
-                            </li>
-                            <li class="cbp-item">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="<?=base_url('assets/images/portfolio2.jpg');?>" alt="" width="100%">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="assets/images/portfolio2.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team2.jpg');?>" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">FAQ Mobile</div>
+                                    <div class="team-desc">Bank	BRI (2017)</div>
+									<div class="team-desc">IOS, Android, PHP, and Pyhton</div>
+                                    <div class="team-text">FAQ	contain	all	information	about	BRI	product	and	company,	schedule	event,	dynamic	survey	and	private	message	with	platform	Android	,IOS	and	web	for	dynamic	content	management.</div>
                                 </div>
-                                <div class="cbp-l-grid-projects-title">BANDA</div>
-                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">PMT, Centratama Group (2016) <br>Android and PHP</span></div>
-                            </li>
-                            <li class="cbp-item">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="<?=base_url('assets/images/portfolio3.jpg');?>" alt="" width="100%">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="assets/images/portfolio3.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cbp-l-grid-projects-title">PERSPEBSI</div>
-                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">Neurosurgery Doctor Association (2017) <br>IOS,Android, and PHP</span></div>
-                            </li>
-                            <li class="cbp-item">
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="<?=base_url('assets/images/portfolio4.jpg');?>" alt="" width="100%">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="assets/images/portfolio4.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cbp-l-grid-projects-title">FAQ Mobile</div>
-                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">Bank BRI (2017)<br>IOS, Android, PHP, and Phyton</span></div>
-                            </li>
-                            <li class="cbp-item">
-                            	<br>
-                                <div class="cbp-caption">
-                                    <div class="cbp-caption-defaultWrap">
-                                        <img src="<?=base_url('assets/images/portfolio5.jpg');?>" alt="" width="100%">
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="cbp-l-caption-alignCenter">
-                                            <div class="cbp-l-caption-body">
-                                                <a href="assets/images/portfolio5.jpg');?>" class="cbp-lightbox cbp-l-caption-buttonRight"><i class="icon-magnifier"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cbp-l-grid-projects-title">I-Candidate</div>
-                                <div class="cbp-l-grid-projects-desc"><span class="cbp-l-grid-projects-inlineFilters">(2017)<br>IOS, Android, and PHP</span></div>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="cbp-l-loadMore-button"><a href="<?=base_url('portfolio/load.html');?>" class="cbp-l-loadMore-button-link">More Works</a></div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team3.jpg');?>" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">i-Candidate</div>
+                                    <div class="team-desc">(2017)</div>
+                                    <div class="team-text">i-Candidate	have	several	modules	(News,	Citizen	Report,	Redeem	Point,	Panic	Button	and		Dynamic	Survey)	. Content Management	System	and	Dashboard	for	command	center	and	back	end.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team4.jpg');?>" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Sales Forces</div>
+                                    <div class="team-desc">Android and PHP</div>
+									<div class="team-desc">Otsuka (2016)</div>
+                                    <div class="team-text">Sales Order	Management,	Sales	tracking,	Inventory	and	Invoicing. With	android	platform	forsales	and	web	base	for	controller	and	task	assignment.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+			</div>
+			<div class="bg about">
+                <div class="container">
+                    <div class="row marg75">
+                        <div class="col-lg-12">
+                            <div class="promo">Our Projects</div>
+                            <div class="promo-p">You will get the best quality services</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team1.jpg');?>" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                  <div class="team-name">News Portal</div>
+                                  <div class="team-desc">Akurat.co (2017)</div>
+								  <div class="team-desc">IOS and Android</div>
+                                  <div class="team-text">Dynamic	Theme,	ads,	News	Portal	and	Content	Management	System.</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team1.jpg');?>" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                  <div class="team-name">VITS</div>
+                                  <div class="team-desc">FID-Toyota	Motors Manufacturing	Indonesia (2016)</div>
+								  <div class="team-desc">Android and .NET</div>
+                                  <div class="team-text">POST	Job	Checking/Defect	Entry,	POST	Tracking,	Defect	Repair	Task,	Vehicle	Judgement	and	RFID	Integration.</div>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+					  <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team1.jpg');?>" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                  <div class="team-name">CPD Online</div>
+                                  <div class="team-desc">Prodibee (2017)</div>
+								  <div class="team-desc">Android and PHP</div>
+                                  <div class="team-text">Mobile	Apps	Nurse	E-learning	and	certification	for	nurse	association.</div>
+                              </div>
+                                </div>
+                            </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team2.jpg');?>" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Salesforce Assistant</div>
+                                    <div class="team-desc">Amerta Indah	Otsuka (2016)</div>
+									<div class="team-desc">Android	and	.NET</div>
+                                    <div class="team-text">Sales	Order	Management,	Sales	tracking,	Inventory	and	Invoicing.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team3.jpg');?>" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Inventory and Shipping Assistant</div>
+                                    <div class="team-desc">Okamoto	Logistic	Nusantara (2015)</div>
+                                    <div class="team-desc">PHP and Windows Phone</div>
+                                    <div class="team-text">PDA	Scanner	for	site	W/H	Transaction	and	web	base	for	Vanning	Plan,	Vanning	Instruction,	Shipping	Instruction	,export	and	stock	opname /	Stock	taking		process.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team4.jpg');?>" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Archiving System</div>
+                                    <div class="team-desc">Tangerang	Regional	Government (2015)</div>
+									<div class="team-desc">PHP and Fujitsu	API	printer</div>
+                                    <div class="team-text">Automatic	Scanner	Archiving,	Multiple	page	complier	and	documents	search	engine.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team4.jpg');?>" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Mobile Banking</div>
+                                    <div class="team-desc">Bank Syariah Mandiri (2014)</div>
+									<div class="team-desc"> IOS,	Android, and	BB10</div>
+                                    <div class="team-text">All banking transaction can use mobile apps,	connected	to	core	banking	using	standard	security	ISO	8583	and	RSA	and	3Des	encryption</div>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team4.jpg');?>" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Megcheddar.com</div>
+                                    <div class="team-desc">Megcheddar (2014)</div>
+									<div class="team-desc">PHP</div>
+                                    <div class="team-text">Product	Profile,	TV	Adds,	Menu	Simulation,	Customer	Service	and	content	management	system.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 marg65">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team4.jpg');?>" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="team-name">Hokben.co.id</div>
+                                    <div class="team-desc">Hokben (2014)</div>
+									<div class="team-desc">PHP</div>
+                                    <div class="team-text">Product	Profile,	Order	and	Delivery	Services.</div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+					</div>              
+            </div>
+			</div>
 				<div class="bg about" id="4">
                     <div class="container">
                         <div class="row marg75">
@@ -310,9 +414,9 @@
                               <section class="slider">
                                   <div class="flexslider">
                                       <ul class="slides">
-                                          <li><img src="assets/images/about-2.jpg" /></li>
-                                          <li><img src="assets/images/about-1.jpg" /></li>
-                                          <li><img src="assets/images/about-3.jpg" /></li>
+                                          <li><img "<?=base_url('assets/imagesabout-2.jpg');?>" /></li>
+                                          <li><img "<?=base_url('assets/imagesabout-1.jpg');?>" /></li>
+                                          <li><img "<?=base_url('assets/imagesabout-3.jpg');?>" /></li>
                                       </ul>
                                   </div>
                               </section>
@@ -344,6 +448,7 @@
                         </div>
                     </div>
                 </div>
+				<div class="bg about">
                 <div class="container">
                     <div class="row marg75">
                         <div class="col-lg-12">
@@ -354,7 +459,7 @@
                     <div class="row">
                       <div class="col-lg-6 col-md-6 col-sm-12 marg65">
                           <div class="row">
-                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team1.jpg" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team1.jpg');?>" alt=""></div></div>
                               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
                                   <div class="team-name">Agus Sulaeman</div>
                                   <div class="team-desc">Project Manager</div>
@@ -370,7 +475,7 @@
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-12 marg65">
                           <div class="row">
-                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team1.jpg" alt=""></div></div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team1.jpg');?>" alt=""></div></div>
                               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
                                   <div class="team-name">Eggi Moch Iqbal</div>
                                   <div class="team-desc">Project Manager</div>
@@ -386,7 +491,7 @@
                       </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 marg65">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team1.jpg" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team1.jpg');?>" alt=""></div></div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
                                     <div class="team-name">Mark Sebastian</div>
                                     <div class="team-desc">Project Manager</div>
@@ -402,7 +507,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 marg65">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team2.jpg" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team2.jpg');?>" alt=""></div></div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
                                     <div class="team-name">Jessica Doe</div>
                                     <div class="team-desc">system Analyst</div>
@@ -420,7 +525,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 marg65">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team3.jpg" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team3.jpg');?>" alt=""></div></div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
                                     <div class="team-name">Michael Jefferson</div>
                                     <div class="team-desc">Android Developer</div>
@@ -436,7 +541,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 marg65">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team4.jpg" alt=""></div></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="<?=base_url('assets/images/team4.jpg');?>" alt=""></div></div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
                                     <div class="team-name">Rowena Baga</div>
                                     <div class="team-desc">iOS Developer</div>
@@ -451,39 +556,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 marg65">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team4.jpg" alt=""></div></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
-                                <div class="team-name">Baga Rowena </div>
-                                <div class="team-desc">Back end & Web Developer</div>
-                                <div class="team-text">This template was designed specially  for you. It’s easy to customize anything. Fully responsive layout. We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind.</div>
-                                <ul class="team-soc">
-                                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 marg65">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12"><div class="team-img"><img src="assets/images/team4.jpg" alt=""></div></div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
-                            <div class="team-name">Jakam </div>
-                            <div class="team-desc">QA Tester</div>
-                            <div class="team-text">This template was designed specially  for you. It’s easy to customize anything. Fully responsive layout. We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind.</div>
-                            <ul class="team-soc">
-                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
+			</div>
 			<div class="parallax-2 contact" id="6">
                 <div class="parallax-over-2">
                     <div class="container">
